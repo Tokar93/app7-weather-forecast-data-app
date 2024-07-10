@@ -13,5 +13,5 @@ def get_data(place, forecast_days):
     return filtered_data
 
 if __name__ == '__main__':
-    forecast = get_data(place='Gdynia')
+    forecast = get_data(place='Gdynia', forecast_days=3)
     print(forecast)
