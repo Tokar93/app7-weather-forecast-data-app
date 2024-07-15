@@ -11,7 +11,7 @@ st.subheader(f'{option} for the next {days} days in {place}')
 
 if place:
     try:
-        # Get the remperature/sky
+        # Get the temperature/sky
         filtered_data = get_data(place, days)
 
         # Create temperatures and dates and plot them
